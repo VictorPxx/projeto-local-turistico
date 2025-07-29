@@ -3,9 +3,19 @@
     padding: 0;
 }
 
+:root {
+    font-family: "Open Sans", sans-serif;
+    color: #1B1B1B;
+}
+
+body {
+    background-color: #F5F4F0;
+}
+
 #page {
     width: 1120px;
-    margin: 88px auto 65px;
+    margin: 88px auto 0;
+    box-sizing: border-box;
 }
 
 h6 {
@@ -14,16 +24,105 @@ h6 {
     color: #E1624F;
 }
 
+p {
+    color: #333333;
+}
+
+#know h6 {
+    padding-bottom: 8px;
+}
+
+#know h1, p {
+    padding-bottom: 40px;
+}
+
+#know p {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
 img {
-    border-radius: 28px;
+    object-fit: cover;
+}
+
+#know img {
+    margin-bottom: 24px;
+}
+
+img {
+    border-radius: 28px;  
 }
 
 #discover {
-    margin-top: 40px;
     border-top: 1px solid #D9D9D9;
+}
+
+#discover h6 {
+    padding: 64px 0 2px 0;
+}
+
+#discover h2 {
+    color: #1B1B1B;
+}
+
+#discover p {
+    padding: 8px 0 64px 0;
+}
+
+#list h2 {
+    padding: 20px 0 2px 5px;
+} 
+
+#list ul {
+    margin-bottom: 48px;
+}
+
+#list ul:last-child {
+    margin-bottom: 0;
+}
+
+#list b {
+    color: #333333;
+}
+
+ul {
+    padding-left: 22px;
+    list-style: disc #000;
+}
+
+ul li::marker {
+    color: #333333;
+}
+
+ul li {
+    font-weight: bold;
+    color: #0C51A7;
+    text-decoration-color: #1B1B1B;
+}
+
+.li-1 {
+    color: #591B98;
+}
+
+.li-2 {
+    color: #E5245E;
+}
+
+.li-3 {
+    color: #E95E10;
 }
 
 hr {
     margin: 40px 0 40px 0;
     border-top: 1px solid #D9D9D9;
+}
+
+footer {
+    font-family: "Alice", serif;
+    text-align: center;
+    padding:25px 0 48px 0;
+}
+
+footer img {
+    vertical-align: middle;
 }
